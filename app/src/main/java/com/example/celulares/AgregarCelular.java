@@ -62,6 +62,7 @@ public class AgregarCelular extends AppCompatActivity {
         modelo.setText("");
         ram.setText("");
         almacenamiento.setText("");
+        codigo.setError(null);
         codigo.requestFocus();
     }
     public boolean validar(){

@@ -31,11 +31,7 @@ public class AdaptadorCelular extends RecyclerView.Adapter<AdaptadorCelular.Celu
     public void onBindViewHolder(@NonNull CelularViewHolder celularViewHolder, int i) {
         final Celular cel = celulares.get(i);
         celularViewHolder.foto.setImageResource(cel.getFoto());
-        celularViewHolder.codigo.setText(cel.getCodigo());
-        celularViewHolder.marca.setText(cel.getMarca());
-        celularViewHolder.modelo.setText(cel.getModelo());
-        celularViewHolder.ram.setText(cel.getRam());
-        celularViewHolder.almacenamiento.setText(cel.getAlmacenamiento());
+        celularViewHolder.marcaModelo.setText(cel.getMarca()+" "+cel.getModelo());
 
         celularViewHolder.v.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -52,22 +48,14 @@ public class AdaptadorCelular extends RecyclerView.Adapter<AdaptadorCelular.Celu
 
     public static class CelularViewHolder extends RecyclerView.ViewHolder{
         private ImageView foto;
-        private TextView codigo;
-        private TextView marca;
-        private TextView modelo;
-        private TextView ram;
-        private TextView almacenamiento;
         private View v;
+        private TextView marcaModelo;
 
         public CelularViewHolder(View itemView){
             super(itemView);
             v = itemView;
             foto = v.findViewById(R.id.foto);
-            codigo = v.findViewById(R.id.lblCodigo);
-            marca = v.findViewById(R.id.lblMarca);
-            modelo = v.findViewById(R.id.lblModelo);
-            ram = v.findViewById(R.id.lblRam);
-            almacenamiento = v.findViewById(R.id.lblAlmacenamiento);
+            marcaModelo = v.findViewById(R.id.lblMarcaModelo);
 
         }
     }
