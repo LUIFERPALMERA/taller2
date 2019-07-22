@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "626155059238",
+    "firebase_url": "https://celulares-9693d.firebaseio.com",
+    "project_id": "celulares-9693d",
+    "storage_bucket": "celulares-9693d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:626155059238:android:f23c33ed52e22e17",
+        "android_client_info": {
+          "package_name": "com.example.celulares"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "626155059238-htk0p7m92b08hoju4tc3tqici1v7go5o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.celulares",
+            "certificate_hash": "6cdbc311c157c79cb5483c9be06325771b05dd65"
+          }
+        },
+        {
+          "client_id": "626155059238-odlg3cla0j69b6veg8agb3hevhkoehae.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzMhFDIxhClr2PRvsW83siFOr6bgyA0Os"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "626155059238-odlg3cla0j69b6veg8agb3hevhkoehae.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
