@@ -79,5 +79,4 @@ public class Celular {
         this.almacenamiento = almacenamiento;
     }
 
-
 }
