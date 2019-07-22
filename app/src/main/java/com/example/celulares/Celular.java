@@ -79,4 +79,15 @@ public class Celular {
         this.almacenamiento = almacenamiento;
     }
 
+    public void guardar(){
+        Datos.agregar(this);
+    }
+
+    public void editar(){
+        Datos.editar(this);
+    }
+
+    public void eliminar(){
+        Datos.eliminar(this);
+    }
 }
